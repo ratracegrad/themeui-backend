@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const cors = require('cors');
-const PORT = '5000' || process.env.PORT;
+const PORT = process.env.PORT || '5000';
 
 const app = express();
 app.use(cors());
